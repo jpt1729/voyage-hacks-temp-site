@@ -1,3 +1,5 @@
+//import NewsletterForm from "@/components/Newsletter";
+
 export default function Home() {
   return (
     <main className="w-full h-screen flex justify-center items-center">
@@ -6,6 +8,7 @@ export default function Home() {
           Voyage <br /> de la Lune <br /> Hacks
         </h1>
         <h2>Coming soon to Houston, Texas in 2024.</h2>
+        
       </div>
     </main>
   );
