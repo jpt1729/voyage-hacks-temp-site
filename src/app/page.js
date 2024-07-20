@@ -1,12 +1,12 @@
 import NewsletterForm from "@/components/Newsletter";
 import HoustonText from "@/components/HoustonText";
-
+import Social from "@/components/Social";
 export default function Home() {
   return (
-    <main className="w-full h-screen flex justify-center items-center">
+    <main className="w-full h-screen flex flex-col justify-center items-center relative">
       <div className="flex flex-col gap-3">
         <h1 className="font-bold lg:text-8xl md:text-7xl text-6xl gradient-text leading-none">
-          Voyage <br /> de la Lune <br /> Hacks
+          Voyage <br /> de la Lune <br /> Hackathon
         </h1>
         <h2 className="leading-none text-lg">
           Coming soon to{" "}
@@ -15,6 +15,7 @@ export default function Home() {
         </h2>
         <NewsletterForm />
       </div>
+      <Social/>
     </main>
   );
 }
